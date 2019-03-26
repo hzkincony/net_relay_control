@@ -1,0 +1,38 @@
+object Form4: TForm4
+  Left = 0
+  Top = 0
+  Caption = #28201#24230#20445#25252#35774#32622
+  ClientHeight = 243
+  ClientWidth = 527
+  Color = clBtnFace
+  Font.Charset = DEFAULT_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -11
+  Font.Name = 'Tahoma'
+  Font.Style = []
+  OldCreateOrder = False
+  PixelsPerInch = 96
+  TextHeight = 13
+  object Label1: TLabel
+    Left = 32
+    Top = 32
+    Width = 60
+    Height = 13
+    Caption = #24403#28201#24230#39640#20110
+  end
+  object Label2: TLabel
+    Left = 160
+    Top = 32
+    Width = 132
+    Height = 13
+    Caption = #8451#26102#65292#25152#26377#24320#20851#33258#21160#20851#38381
+  end
+  object ComboBox1: TComboBox
+    Left = 98
+    Top = 29
+    Width = 49
+    Height = 21
+    TabOrder = 0
+    Text = '50'
+  end
+end

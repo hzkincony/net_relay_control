@@ -1,0 +1,40 @@
+//---------------------------------------------------------------------------
+
+#include <vcl.h>
+#pragma hdrstop
+
+#include "Unit4.h"
+//---------------------------------------------------------------------------
+#pragma package(smart_init)
+#pragma resource "*.dfm"
+TForm4 *Form4;
+//---------------------------------------------------------------------------
+__fastcall TForm4::TForm4(TComponent* Owner)
+	: TForm(Owner)
+{
+}
+//---------------------------------------------------------------------------
+
+
+
+void __fastcall TForm4::Button1Click(TObject *Sender)
+{
+   TIniFile *ini;
+   ini = new TIniFile(ChangeFileExt( Application->ExeName, ".INI" ) );
+
+ //---------------------------------第一路继电器开关相关的定时参数--------------
+   ini->WriteString ( "Trigger_Config", "Trigger_1", BoolToStr(CheckBox1->Checked) );   //保存星期参数
+   ini->WriteString ( "Trigger_Config", "Trigger_2", BoolToStr(CheckBox2->Checked) );
+   ini->WriteString ( "Trigger_Config", "Trigger_3", BoolToStr(CheckBox3->Checked) );
+   ini->WriteString ( "Trigger_Config", "Trigger_4", BoolToStr(CheckBox4->Checked) );
+   ini->WriteString ( "Trigger_Config", "Trigger_5", BoolToStr(CheckBox5->Checked) );
+   ini->WriteString ( "Trigger_Config", "Trigger_6", BoolToStr(CheckBox6->Checked) );
+   ini->WriteString ( "Trigger_Config", "Trigger_7", BoolToStr(CheckBox7->Checked) );
+
+   delete ini;
+   Close();
+
+
+}
+//---------------------------------------------------------------------------
+

@@ -1,0 +1,86 @@
+//---------------------------------------------------------------------------
+
+#ifndef Unit3H
+#define Unit3H
+//---------------------------------------------------------------------------
+#include <System.Classes.hpp>
+#include <Vcl.Controls.hpp>
+#include <Vcl.StdCtrls.hpp>
+#include <Vcl.Forms.hpp>
+#include <Vcl.ComCtrls.hpp>
+//---------------------------------------------------------------------------
+class TForm3 : public TForm
+{
+__published:	// IDE-managed Components
+	TPageControl *PageControl1;
+	TTabSheet *TabSheet1;
+	TTabSheet *TabSheet2;
+	TTabSheet *TabSheet3;
+	TLabel *Label1;
+	TCheckBox *CheckBox1;
+	TCheckBox *CheckBox2;
+	TCheckBox *CheckBox3;
+	TCheckBox *CheckBox4;
+	TCheckBox *CheckBox5;
+	TCheckBox *CheckBox6;
+	TCheckBox *CheckBox7;
+	TTabSheet *TabSheet4;
+	TTabSheet *TabSheet5;
+	TTabSheet *TabSheet6;
+	TTabSheet *TabSheet7;
+	TTabSheet *TabSheet8;
+	TLabel *Label2;
+	TComboBox *ComboBox1;
+	TComboBox *ComboBox2;
+	TLabel *Label3;
+	TLabel *Label4;
+	TComboBox *ComboBox3;
+	TLabel *Label5;
+	TComboBox *ComboBox4;
+	TLabel *Label6;
+	TLabel *Label7;
+	TComboBox *ComboBox5;
+	TLabel *Label8;
+	TComboBox *ComboBox6;
+	TLabel *Label9;
+	TComboBox *ComboBox7;
+	TLabel *Label10;
+	TComboBox *ComboBox8;
+	TLabel *Label11;
+	TLabel *Label12;
+	TComboBox *ComboBox9;
+	TLabel *Label13;
+	TComboBox *ComboBox10;
+	TLabel *Label14;
+	TComboBox *ComboBox11;
+	TLabel *Label15;
+	TComboBox *ComboBox12;
+	TLabel *Label16;
+	TLabel *Label17;
+	TComboBox *ComboBox13;
+	TLabel *Label18;
+	TComboBox *ComboBox14;
+	TLabel *Label19;
+	TComboBox *ComboBox15;
+	TLabel *Label20;
+	TComboBox *ComboBox16;
+	TLabel *Label21;
+	TLabel *Label22;
+	TComboBox *ComboBox17;
+	TLabel *Label23;
+	TComboBox *ComboBox18;
+	TLabel *Label24;
+	TComboBox *ComboBox19;
+	TLabel *Label25;
+	TComboBox *ComboBox20;
+	TLabel *Label26;
+	TButton *Button1;
+	TButton *Button2;
+private:	// User declarations
+public:		// User declarations
+	__fastcall TForm3(TComponent* Owner);
+};
+//---------------------------------------------------------------------------
+extern PACKAGE TForm3 *Form3;
+//---------------------------------------------------------------------------
+#endif

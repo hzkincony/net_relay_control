@@ -1,0 +1,88 @@
+object Form6: TForm6
+  Left = 0
+  Top = 0
+  Caption = #28857#21160#21442#25968#35774#32622
+  ClientHeight = 243
+  ClientWidth = 527
+  Color = clBtnFace
+  Font.Charset = DEFAULT_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -11
+  Font.Name = 'Tahoma'
+  Font.Style = []
+  OldCreateOrder = False
+  PixelsPerInch = 96
+  TextHeight = 13
+  object CheckBox1: TCheckBox
+    Left = 16
+    Top = 24
+    Width = 57
+    Height = 17
+    Caption = #31532'1'#36335#65306
+    TabOrder = 0
+  end
+  object CheckBox2: TCheckBox
+    Left = 16
+    Top = 56
+    Width = 57
+    Height = 17
+    Caption = #31532'2'#36335#65306
+    TabOrder = 1
+  end
+  object CheckBox3: TCheckBox
+    Left = 16
+    Top = 88
+    Width = 57
+    Height = 17
+    Caption = #31532'3'#36335#65306
+    TabOrder = 2
+  end
+  object CheckBox4: TCheckBox
+    Left = 16
+    Top = 119
+    Width = 57
+    Height = 17
+    Caption = #31532'4'#36335#65306
+    TabOrder = 3
+  end
+  object CheckBox5: TCheckBox
+    Left = 288
+    Top = 24
+    Width = 65
+    Height = 17
+    Caption = #31532'1'#36335#65306
+    TabOrder = 4
+  end
+  object CheckBox6: TCheckBox
+    Left = 288
+    Top = 56
+    Width = 65
+    Height = 17
+    Caption = #31532'1'#36335#65306
+    TabOrder = 5
+  end
+  object CheckBox7: TCheckBox
+    Left = 288
+    Top = 88
+    Width = 65
+    Height = 17
+    Caption = #31532'1'#36335#65306
+    TabOrder = 6
+  end
+  object CheckBox8: TCheckBox
+    Left = 288
+    Top = 119
+    Width = 65
+    Height = 17
+    Caption = #31532'1'#36335#65306
+    TabOrder = 7
+  end
+  object Edit1: TEdit
+    Left = 120
+    Top = 32
+    Width = 121
+    Height = 21
+    TabOrder = 8
+    Text = 'Edit1'
+  end
+end
